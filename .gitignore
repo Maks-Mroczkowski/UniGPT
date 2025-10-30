@@ -1,0 +1,89 @@
+# Environment variables - IMPORTANT: Never commit API keys!
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+RAG/bin/
+RAG/lib/
+RAG/lib64/
+RAG/include/
+RAG/share/
+RAG/pyvenv.cfg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Vector store data
+Vector_store/
+vector_store/
+
+# Uploaded files
+RAG/uploads/
+uploads/
+
+# Upload history database
+RAG/upload_history.db
+upload_history.db
+
+# Node modules (frontend)
+rag-frontend/node_modules/
+rag-frontend/build/
+rag-frontend/.env
+rag-frontend/.env.local
+rag-frontend/.env.development.local
+rag-frontend/.env.test.local
+rag-frontend/.env.production.local
+
+# Dependencies
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lecture data (if you don't want to commit PDFs)
+RAG/lecture_data/
+lecture_data/
+
+# Misc
+.cache/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,0 +1,52 @@
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #212121;
+  position: relative;
+}
+
+.welcome-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  padding-bottom: 140px;
+  overflow-y: auto;
+}
+
+.welcome-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-title {
+  font-size: 56px;
+  font-weight: 600;
+  color: #ececec;
+  margin: 0 0 16px 0;
+}
+
+.welcome-subtitle {
+  font-size: 20px;
+  color: #acacac;
+  margin: 0;
+}
+
+.welcome-content {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.upload-section {
+  width: 100%;
+}
+
+.history-section {
+  width: 100%;
+}
