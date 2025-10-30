@@ -211,13 +211,6 @@ python -m py_compile *.py
 - TypeScript
 - CSS3
 
-## Security Notes
-
-- **Never commit your `.env` file** - it contains sensitive API keys
-- The `.gitignore` is configured to exclude sensitive files
-- Use environment variables for all secrets
-- Consider rate limiting for production deployments
-
 ## Troubleshooting
 
 ### Backend won't start
@@ -235,21 +228,4 @@ python -m py_compile *.py
 - Ensure sufficient disk space for vector store
 - Verify PDF is not corrupted
 
-## License
 
-MIT License - See LICENSE file for details
-
-## Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## Acknowledgments
-
-- LangChain for document processing tools
-- ChromaDB for vector storage
-- Groq for LLM API access
-- SentenceTransformers for embeddings
